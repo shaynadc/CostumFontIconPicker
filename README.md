@@ -7,7 +7,7 @@ A font icon picker for custom fonts in Umbraco. This Umbraco plugin serves to op
 
 ## Install
 <b>Step 1.</b> Clone into or download plugin <br />
-Step 2. Drop folder into your Umbraco "App_Plugins" directory
+<b>Step 2.</b> Drop folder into your Umbraco "App_Plugins" directory
 
 ## Configurations
 <b>Step 1.</b> Open the file CustomFontIconPicker/js/iconList.json and add each of your custom icons, replacing the example code.
@@ -22,3 +22,8 @@ Note: I use <a href="http://fontastic.me/" target="_blank">Fontastic.me</a> to c
 ```
 <link href="https://file.myfontastic.com/icons.css" rel="stylesheet">
 ```
+
+## Using
+<b>Step 1.</b> In the Umbraco backoffice, create a new Data Type.<br />
+<b>Step 2.</b> Name data type whatever you're comfortable with. I named my <i>"Icon Picker"</i> and then Save.<br />
+<b>Step 3.</b> Open your document type and add new property to the document.
