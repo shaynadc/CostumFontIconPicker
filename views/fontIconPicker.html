@@ -1,0 +1,9 @@
+<link href="https://file.myfontastic.com/R26XkH3xtPXudj5yDdyMZK/icons.css" rel="stylesheet">
+
+
+<div ng-controller="fontIconPickerCtrl">
+  <p><i class="customfonticon-{{model.value}}"></i><span ng-show="ShowClose()" class="close" ng-click="close()">X</span></p>
+  <select ng-model="model.value">
+    <option ng-selected="model.value === item.class" ng-repeat="item in items" value="{{item.class}}">{{item.name}}</option>
+  </select>
+</div>

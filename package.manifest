@@ -1,0 +1,23 @@
+{
+  "propertyEditors": [
+    {
+      "name": "Font Icon Picker",
+      "alias": "FontIconPicker",
+      "editor": {
+        "valueType": "JSON",
+        "view": "~/App_Plugins/fontIconPicker/views/fontIconPicker.html"
+      },
+      "prevalues": {
+        "fields": [
+        ]
+      }
+    }
+  ],
+  "css": [
+    "~/App_Plugins/fontIconPicker/css/fontIconPicker.css"
+  ],
+  "javascript": [
+    "~/App_Plugins/fontIconPicker/js/fontIconPicker.js"
+  ]
+}
+
