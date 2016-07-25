@@ -13,7 +13,7 @@ A font icon picker for custom fonts in Umbraco. This Umbraco plugin serves to op
 <b>Step 1.</b> Open the file CustomFontIconPicker/js/iconList.json and add each of your custom icons, replacing the example code.
 ```
 "twitter": {  			//name of icon, for your references
-	"name": "Twitter", 	//name the end user will see
+	"name": "Twitter", 	//name the end user (content editor) will see
 	"class": "twitter" 	//class that the font icon uses to call in CSS
 }
 ```
