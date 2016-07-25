@@ -4,3 +4,7 @@ A font icon picker for custom fonts in Umbraco. This Umbraco plugin serves to op
 <p>
 	<img src="readme/intro-image.png" alt="A font icon picker for custom fonts in Umbraco" />
 </p>
+
+## Install
+1. Clone into or download plugin
+2. Drop folder into your Umbraco "App_Plugins" directory
