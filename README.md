@@ -22,7 +22,7 @@ Note: I use <a href="http://fontastic.me/" target="_blank">Fontastic.me</a> to c
 ```
 <link href="https://file.myfontastic.com/icons.css" rel="stylesheet">
 ```
-<b>Step 3.</b> In this same html file, look for the '<i>' tag and replace the CSS selector prefix with whatever prefix your custom font icon uses. My custom font prefix is <em>"icon"</em>.
+<b>Step 3.</b> In this same html file, look for the <code><i></code> tag and replace the CSS selector prefix with whatever prefix your custom font icon uses. My custom font prefix is <em>"icon"</em>.
 ```
 <i class="icon-{{model.value}}"></i>
 ``` 
