@@ -36,3 +36,9 @@ Note: I use <a href="http://fontastic.me/" target="_blank">Fontastic.me</a> to c
 var icon = "icon- " + @page.fontIconPicker;
 <i class="@icon"></i>
 ```
+
+## The future of this plugin
+There are some tweaks I can make so that you don't have open the files. I'll get there very soon. For now, I've tried to be as explicit as possible. 
+
+## Support
+Feel free to post your issues, and I'll get back to you right away!
