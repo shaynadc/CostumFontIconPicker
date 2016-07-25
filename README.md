@@ -37,6 +37,9 @@ var icon = "icon- " + @page.fontIconPicker;
 <i class="@icon"></i>
 ```
 
+##Updating your fonts
+Once you've installed the plugin, all you have to do in the future to add more fonts is update your font stylesheet and the JSON file.
+
 ## The future of this plugin
 There are some tweaks I can make so that you don't have open the files. I'll get there very soon. For now, I've tried to be as explicit as possible. 
 
