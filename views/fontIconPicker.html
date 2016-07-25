@@ -4,8 +4,11 @@
 
 
 <div ng-controller="fontIconPickerCtrl">
-  <p><i class="customfonticon-{{model.value}}"></i><span ng-show="ShowClose()" class="close" ng-click="close()">X</span></p>
-  <select ng-model="model.value">
-    <option ng-selected="model.value === item.class" ng-repeat="item in items" value="{{item.class}}">{{item.name}}</option>
-  </select>
+  	<p>
+	  	<i class="icon-{{model.value}}"></i> <!-- change "icon" to whatever your CSS selector prefix is. -->
+	  	<span ng-show="ShowClose()" class="close" ng-click="close()">X</span>
+ 	</p>
+  	<select ng-model="model.value">
+    	<option ng-selected="model.value === item.class" ng-repeat="item in items" value="{{item.class}}">{{item.name}}</option>
+  	</select>
 </div>
