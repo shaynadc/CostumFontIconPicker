@@ -27,3 +27,8 @@ Note: I use <a href="http://fontastic.me/" target="_blank">Fontastic.me</a> to c
 <b>Step 1.</b> In the Umbraco backoffice, create a new Data Type.<br />
 <b>Step 2.</b> Name data type whatever you're comfortable with. I named my <i>"Icon Picker"</i>. Save.<br />
 <b>Step 3.</b> Open your document type and add new property to the document.
+<b>Step 4.</b> Use in your templates like any other property. The property value output is the class that you gave each icon in the JSON doc. I used the following code to add to my template:
+```
+var icon = "icon- " + @page.fontIconPicker;
+<i class="@icon"></i>
+```
