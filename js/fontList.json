@@ -19,58 +19,6 @@
 		"youtube": {
 			"name":"Youtube",
 			"class":"youtube"
-		},
-		"left-arrow": {
-			"name": "Left Arrow",
-			"class": "left-arrow"
-		},
-		"right-arrow": {
-			"name": "Right Arrow",
-			"class": "right-arrow"
-		},
-		"search": {
-			"name":"Search",
-			"class":"search"
-		},
-		"video": {
-			"name":"Video",
-			"class":"video"
-		},
-		"demo": {
-			"name":"Demo",
-			"class":"demo"
-		},
-		"brochure": {
-			"name":"Brochure",
-			"class":"brochure"
-		},
-		"whitepapers": {
-			"name": "Whitepapers",
-			"class": "whitepapers"
-		},
-		"accounting": {
-			"name":"Accouting",
-			"class":"accounting"
-		},
-		"delivery": {
-			"name":"Delivery",
-			"class":"delivery"
-		},
-		"manufacturingmillwork": {
-			"name": "Manufacturing - Millwork",
-			"class": "manufacturingmillwork"
-		},
-		"pointofsale": {
-			"name": "Point-of-Sale",
-			"class": "pointofsale"
-		},
-		"purchasing": {
-			"name": "Purchasing",
-			"class": "purchasing"
-		},
-		"sales": {
-			"name": "Sales",
-			"class": "sales"
 		}
 	}
 }
